@@ -28,6 +28,7 @@ class Triangle
  end
  
   def correct?
+    #binding.pry
     side_one_two = @sides[0] + @sides[1]
     side_one_two = @sides[1] + @sides[2]
     side_one_two = @sides[0] + @sides[2]
