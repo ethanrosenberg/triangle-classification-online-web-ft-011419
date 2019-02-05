@@ -16,7 +16,7 @@ class Triangle
     if data[1] = data[2]
       return "isosceles".to_sym
     elsif data[0] = data[1] && data[2] = data[1]
-      return "isosceles".to_sym
+      return "equilateral".to_sym
     elsif data[0] = data[2]
       return "isosceles".to_sym
     elsif data[0] = data[1]
