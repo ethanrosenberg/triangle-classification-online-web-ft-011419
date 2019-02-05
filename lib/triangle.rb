@@ -10,6 +10,6 @@ class Triangle
     data = [length1, length2, length3]
     if data[0] = data[1] = data[3]
       return "equilateral".to_sym
-    elsif 
+    elsif data.select {|item| item 
   end
 end
