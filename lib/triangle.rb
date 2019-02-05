@@ -37,7 +37,7 @@ class Triangle
  end
  
   def correct?
-    #binding.pry
+    binding.pry
     #dirty and long need to refactor
     one_two_sum = @sides[0] + @sides[1]
     two_three_sum = @sides[1] + @sides[2]
