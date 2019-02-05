@@ -11,14 +11,14 @@ class Triangle
   
   def kind
     
-    if@side1 = @side2 && @side2 = @side3
+    if@side1 == @side2 && @side2 == @side3
       return "equilateral".to_sym
-    elsif  @side2 = @side3
+    elsif  @side2 == @side3
       return "isosceles".to_sym
-    elsif @side1 = @side3
+    elsif @side1 == @side3
     binding.pry
       return "isosceles".to_sym
-    elsif @side1 = @side2
+    elsif @side1 == @side2
       return "isosceles".to_sym
     end
     
