@@ -30,8 +30,12 @@ class Triangle
   def correct?
     #binding.pry
     side_one_two = @sides[0] + @sides[1]
-    side_one_two = @sides[1] + @sides[2]
-    side_one_two = @sides[0] + @sides[2]
+    side_two_three = @sides[1] + @sides[2]
+    side_one_three = @sides[0] + @sides[2]
+    
+    if side_one_two + side_two_three = 0
+      false
+    end
   end
   
   class TriangleError < StandardError
