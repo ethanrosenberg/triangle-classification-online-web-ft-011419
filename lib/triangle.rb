@@ -16,12 +16,8 @@ class Triangle
       return "isosceles".to_sym
     elsif @side1 = @side3
       return "isosceles".to_sym
-    elsif data[0] = data[2]
+    elsif @side1 = @side2
       return "isosceles".to_sym
-    elsif data[0] = data[1]
-      return "isosceles".to_sym
-    else
-      test = 1
     end
     
   end
