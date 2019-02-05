@@ -14,21 +14,7 @@ class Triangle
   
   def kind
     
-    if@side1 == @side2 && @side2 == @side3
-      return "equilateral".to_sym
-    elsif  @side2 == @side3
-      return "isosceles".to_sym
-    elsif @side1 == @side3
-      return "isosceles".to_sym
-    elsif @side1 == @side2
-      return "isosceles".to_sym
-    #scalene test
-    elsif @side1 != @side2 && @side2 != @side3
-      return "scalene".to_sym
-      binding.pry
-    elsif @side1 == 0 && @side2 == 0 && @side3 == 0
-        raise TriangleError
-    end
+  
     
   end
   
