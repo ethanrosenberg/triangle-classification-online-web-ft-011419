@@ -12,7 +12,7 @@ class Triangle
   end
   
   def correct?
-    true
+    if @sides.
   end
   
   def kind
