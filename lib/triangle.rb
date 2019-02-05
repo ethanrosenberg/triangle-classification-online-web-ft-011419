@@ -5,15 +5,10 @@ class Triangle
     @side1 = side1
     @side2 = side2
     @side3 = side3
-    @sides =[@side1, @side2, @side3]
 
   end
   
   def kind
-    sides = [@length1, @length2, @length3]
-    
-     
-
     
     if  data[0] = data[1] && data[2] = data[1]
       return "equilateral".to_sym
