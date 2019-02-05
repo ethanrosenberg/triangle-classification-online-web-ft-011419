@@ -24,7 +24,7 @@ class Triangle
       return "scalene".to_sym
       binding.pry
     elsif @side1 + @side2 + @side3 == 0
-        raise Triangle::TriangleError
+        raise TriangleError
     end
     
   end
