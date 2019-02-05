@@ -59,6 +59,7 @@ class Triangle
   
   class TriangleError < StandardError
     # triangle error code
+    "Oops we have a triangle problem!"
   end
   
 end
