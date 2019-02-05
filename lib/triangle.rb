@@ -15,7 +15,7 @@ class Triangle
   
   def kind
     if correct?
-      binding.pry
+      #binding.pry
       if @sides.uniq.size == 1
         return :equilateral
       elsif @sides.uniq.size == 2
