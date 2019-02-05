@@ -13,11 +13,16 @@ class Triangle
   end
   
   def kind
+    if correct?
+      if @sides.uniq.size == 1
+        return :equilateral
+      elsif @sides.uniq.size == 2
+        return :isosceles
+      else
+        return :scalene
+      end
   
-  
-  
-    
-  end
+ end
   
   class TriangleError < StandardError
     # triangle error code
