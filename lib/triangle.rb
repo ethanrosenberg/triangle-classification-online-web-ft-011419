@@ -11,9 +11,7 @@ class Triangle
   
   end
   
-  def correct?
-    if @sides
-  end
+ 
   
   def kind
     if correct?
@@ -28,6 +26,12 @@ class Triangle
       raise TriangleError
     end
  end
+ 
+  def correct?
+    side_one_two = @sides[0] + @sides[1]
+    side_one_two = @sides[1] + @sides[2]
+    side_one_two = @sides[0] + @sides[2]
+  end
   
   class TriangleError < StandardError
     # triangle error code
