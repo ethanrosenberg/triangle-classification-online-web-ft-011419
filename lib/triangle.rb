@@ -27,7 +27,7 @@ class Triangle
     end
  end
  
- def validtriangle?(one_two_sum, two_three_sum, one_three_sum)
+ def valid_triangle?(one_two_sum, two_three_sum, one_three_sum)
    if 
  end
  
