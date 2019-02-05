@@ -1,3 +1,4 @@
+'require'
 class Triangle
   attr_accessor :side1, :side2, :side3, :kind
   
@@ -15,6 +16,7 @@ class Triangle
     elsif  @side2 = @side3
       return "isosceles".to_sym
     elsif @side1 = @side3
+    binding.pry
       return "isosceles".to_sym
     elsif @side1 = @side2
       return "isosceles".to_sym
