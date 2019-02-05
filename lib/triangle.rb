@@ -8,9 +8,11 @@ class Triangle
     @side3 = side3
     
     @sides = [@side1, @side2, @side3]
-    
-
+  
   end
+  
+  def correct?
+    
   
   def kind
     if correct?
