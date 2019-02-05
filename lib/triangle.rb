@@ -29,6 +29,7 @@ class Triangle
  
  def validtriangle?(one_two_sum, two_three_sum, one_three_sum)
    if 
+ end
  
   def correct?
     #binding.pry
