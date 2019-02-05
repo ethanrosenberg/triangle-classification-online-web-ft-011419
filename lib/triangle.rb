@@ -12,7 +12,8 @@ class Triangle
   end
   
   def correct?
-    
+    true
+  end
   
   def kind
     if correct?
