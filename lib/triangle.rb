@@ -1,14 +1,16 @@
 class Triangle
-  attr_accessor :length1, :length2, :length3, :kind
+  attr_accessor :side1, :side2, :side3, :kind
   
-  def initialize(length1, length2, length3)
-    @length1 = length1
-    @length2 = length2
-    @length3 = length3
+  def initialize(side1, side2, side3)
+    @side1 = side1
+    @side2 = side2
+    @side3 = side3
+    @sides =[@side1, @side2, @side3]
+
   end
   
   def kind
-    data = [@length1, @length2, @length3]
+    sides = [@length1, @length2, @length3]
     
      
 
@@ -34,3 +36,4 @@ class Triangle
   end
   
 end
+
