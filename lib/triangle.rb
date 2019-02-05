@@ -1,5 +1,6 @@
 class Triangle
   attr_accessor :length1, :length2, :length3
+  
   def initialize(length1, length2, length3)
     @length1 = length1
     @length2 = length2
@@ -19,4 +20,6 @@ class Triangle
       return "isosceles".to_sym
     end
   end
+  
+  
 end
