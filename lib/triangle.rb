@@ -17,5 +17,5 @@ class Triangle
     elsif data[0] = data[1]
       return "isosceles".to_sym
     end
-  
+  end
 end
