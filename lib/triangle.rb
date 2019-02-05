@@ -11,9 +11,9 @@ class Triangle
     data = [@length1, @length2, @length3]
     
      
-    if data[0] = data[1] = data[2]
-      return "equilateral".to_sym
-    elsif data[1] = data[2]
+
+
+    if data[1] = data[2]
       return "isosceles".to_sym
     elsif data[0] = data[2]
       return "isosceles".to_sym
