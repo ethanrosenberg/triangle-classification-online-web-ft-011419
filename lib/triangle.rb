@@ -18,6 +18,8 @@ class Triangle
       return "isosceles".to_sym
     elsif data[0] = data[1]
       return "isosceles".to_sym
+    else
+      test = 1
     end
   end
   
