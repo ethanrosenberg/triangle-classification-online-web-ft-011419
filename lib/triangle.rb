@@ -29,9 +29,10 @@ class Triangle
  
   def correct?
     #binding.pry
-    side_one_two = @sides[0] + @sides[1]
-    side_two_three = @sides[1] + @sides[2]
-    side_one_three = @sides[0] + @sides[2]
+    #dirty and long need to refactor
+    one_two_sum = @sides[0] + @sides[1]
+    two_three_sum = @sides[1] + @sides[2]
+    one_three_sum = @sides[0] + @sides[2]
     
    if (@triangle_sides.none? {|side| side <= 0}) &&
       (sum_one_two > @triangle_sides[2] && sum_one_three > @triangle_sides[1] && sum_two_three > @triangle_sides[0])
