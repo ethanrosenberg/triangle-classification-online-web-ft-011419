@@ -49,8 +49,8 @@ class Triangle
     @sides.each do |side|
       count += side
     end
-    if count >= 0 && valid_triangle?(one_two_sum, two_three_sum, one_three_sum)
-      return true
+    if valid_triangle?(one_two_sum, two_three_sum, one_three_sum)
+      return true if count >= 0
     else
       return false
     end
