@@ -9,13 +9,13 @@ class Triangle
   def kind
     data = [@length1, @length2, @length3]
     
-    if data[0] == data[1] == data[2]
+    if data[0] = data[1] = data[2]
       return "equilateral".to_sym
-    elsif if data[1] == data[2]
+    elsif if data[1] = data[2]
       return "isosceles".to_sym
-    elsif data[0] == data[2]
+    elsif data[0] = data[2]
       return "isosceles".to_sym
-    elsif data[0] == data[1]
+    elsif data[0] = data[1]
       return "isosceles".to_sym
     end
   end
