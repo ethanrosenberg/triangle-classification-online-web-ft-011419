@@ -33,8 +33,11 @@ class Triangle
     side_two_three = @sides[1] + @sides[2]
     side_one_three = @sides[0] + @sides[2]
     
-    if side_one_two + side_two_three = 0
-      false
+   if (@triangle_sides.none? {|side| side <= 0}) &&
+      (sum_one_two > @triangle_sides[2] && sum_one_three > @triangle_sides[1] && sum_two_three > @triangle_sides[0])
+      return true
+    else
+      return false
     end
   end
   
