@@ -49,7 +49,9 @@ class Triangle
     end
     
     if count <= 0 && valid_triangle?(one_two_sum, two_three_sum, one_three_sum)
-      
+      return true
+    else
+      return false
     end
     
    if (@triangle_sides.none? {|side| side <= 0}) &&
