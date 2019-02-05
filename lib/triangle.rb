@@ -17,7 +17,7 @@ class Triangle
     if correct?
       #binding.pry
       if @sides.uniq.size == 1
-        return :equilateral
+        return "equilateral".to_sym
       elsif @sides.uniq.size == 2
         return :isosceles
       else
