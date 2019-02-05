@@ -28,7 +28,7 @@ class Triangle
  end
  
  def valid_triangle?(one_two_sum, two_three_sum, one_three_sum)
-   if 
+   if sum_two_three > @sides[0] && @sides[1] < sum_one_three && @sides[2] < sum_one_two)
  end
  
   def correct?
@@ -44,7 +44,7 @@ class Triangle
       count += side
     end
     
-    if count <= 0
+    if count <= 0 && valid_triangle?(one_two_sum, two_three_sum, one_three_sum)
       
     end
     
