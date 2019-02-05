@@ -23,7 +23,11 @@ class Triangle
     elsif @side1 != @side2 && @side2 != @side3
       return "scalene".to_sym
     elsif @side1 + @side2 + @side3 = 0
-      
+      begin
+        raise TriangleError
+      rescue TriangleError => error
+          puts error.message
+      end
     
   end
   
