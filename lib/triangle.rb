@@ -7,6 +7,8 @@ class Triangle
   end
   
   def kind
-    if
+    if length1 = length2 = length3
+      return "equilateral".to_sym
+    end
   end
 end
