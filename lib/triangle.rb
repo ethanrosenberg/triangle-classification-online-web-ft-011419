@@ -19,9 +19,9 @@ class Triangle
       if @sides.uniq.size == 1
         return "equilateral".to_sym
       elsif @sides.uniq.size == 2
-        return :isosceles
+        return "isosceles".to_sym
       else
-        return :scalene
+        return "scalene".to_sym
       end
     else
       raise TriangleError
