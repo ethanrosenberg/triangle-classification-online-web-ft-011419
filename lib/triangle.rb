@@ -10,12 +10,12 @@ class Triangle
   
   def kind
     
-    if  data[0] = data[1] && data[2] = data[1]
+    if  @side1 = @side2 && @side2 = @side3
       return "equilateral".to_sym
-    elsif  data[1] = data[2]
+    elsif  @side2 = @side3
       return "isosceles".to_sym
-    elsif data[0] = data[1] && data[2] = data[1]
-      return "equilateral".to_sym
+    elsif @side1 = @side3
+      return "isosceles".to_sym
     elsif data[0] = data[2]
       return "isosceles".to_sym
     elsif data[0] = data[1]
