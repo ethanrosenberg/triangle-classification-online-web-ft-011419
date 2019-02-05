@@ -10,7 +10,7 @@ class Triangle
   
   def kind
     
-    if  @side1 = @side2 && @side2 = @side3
+    if@side1 = @side2 && @side2 = @side3
       return "equilateral".to_sym
     elsif  @side2 = @side3
       return "isosceles".to_sym
