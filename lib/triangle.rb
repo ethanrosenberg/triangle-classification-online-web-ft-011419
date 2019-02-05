@@ -13,6 +13,12 @@ class Triangle
      
     if data[0] = data[1] = data[2]
       return "equilateral".to_sym
+    elsif if data[1] = data[2]
+      return "isosceles".to_sym
+    elsif data[0] = data[2]
+      return "isosceles".to_sym
+    elsif data[0] = data[1]
+      return "isosceles".to_sym
     end
     
   end
