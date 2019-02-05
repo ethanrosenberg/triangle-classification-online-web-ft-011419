@@ -37,7 +37,7 @@ class Triangle
  end
  
   def correct?
-    binding.pry
+
     #dirty and long need to refactor
     one_two_sum = @sides[0] + @sides[1]
     two_three_sum = @sides[1] + @sides[2]
@@ -48,7 +48,7 @@ class Triangle
     @sides.each do |side|
       count += side
     end
-    
+        binding.pry
     if count <= 0 && valid_triangle?(one_two_sum, two_three_sum, one_three_sum)
       return true
     else
