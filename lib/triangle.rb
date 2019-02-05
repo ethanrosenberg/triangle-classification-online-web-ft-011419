@@ -29,7 +29,7 @@ class Triangle
  end
  
  def valid_triangle?(one_two_sum, two_three_sum, one_three_sum)
-   if sum_two_three > @sides[0] && @sides[1] < sum_one_three && @sides[2] < sum_one_two
+   if two_three_sum > @sides[0] && @sides[1] < one_three_sum && @sides[2] < one_two_sum
     # binding.pry
      return true
    else
