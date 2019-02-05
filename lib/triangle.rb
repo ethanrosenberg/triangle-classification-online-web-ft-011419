@@ -8,9 +8,11 @@ class Triangle
   
   def kind
     data = [length1, length2, length3]
-    if data[0] = data[1] = data[3]
+    if data[0] = data[1] = data[23]
       return "equilateral".to_sym
     elsif if data[1] = data[3]
       return "isosceles".to_sym
+    elsif data[0] = data[3]
+    
   end
 end
